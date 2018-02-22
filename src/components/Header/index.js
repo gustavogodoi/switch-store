@@ -11,7 +11,9 @@ const Header = () => {
         />
       </div>
       <div className="header-title">
-        <h1>Nintendo Switch Games</h1>
+        <div>
+          <h1>Nintendo Switch Games</h1>
+        </div>
       </div>
       <div className="header-search">
         <input type="text" className="btn-search" placeholder="Search.." />
