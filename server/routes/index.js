@@ -5,7 +5,7 @@ let referenceList = null;
 
 router.get('/games', async (req, res, next) => {
   const response = await axios.get(
-    `https://www.nintendo.com/json/content/get/filter/game?limit=400&system=switch&sort=title&direction=asc`
+    `https://www.nintendo.com/json/content/get/filter/game?limit=400&system=switch&sort=title&direction=desc`
   );
   const { data } = response;
   res.setHeader('Content-Type', 'application/json');
