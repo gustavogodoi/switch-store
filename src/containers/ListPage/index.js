@@ -61,7 +61,7 @@ export class ListPage extends Component {
         id: '-DSAjIl84izCTVqtY_-kl0Qhyb2WC8Od',
         number_of_players: '1 player',
         nsuid: '70010000001682',
-        eshop_price: '2.99',
+        ca_price: '2.99',
         front_box_art:
           'http://media.nintendo.com/nintendo/bin/iO-59p9UJmgLgUSwbCRpLDWcKR4BjlJB/5W9GW5Iw7lxSJIQt2yUCMqxs7CgyY2us.png',
         game_code: 'HACNAHAXA',

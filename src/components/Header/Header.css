@@ -1,0 +1,44 @@
+.header-master {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 100%;
+  background-color: #462c8e;
+  color: #b6b5b9;
+}
+
+.header-nintendo-image {
+  height: 200px;
+  width: 200px;
+}
+
+.nintendo-image {
+  height: 100px;
+  width: 200px;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  font-size: 10px;
+}
+
+.header-search {
+  display: flex;
+  align-self: flex-start;
+  padding-left: 250px;
+  padding-top: 20px;
+}
+
+.btn-search {
+  height: 22px;
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type='text']:focus {
+  width: 200px;
+}
