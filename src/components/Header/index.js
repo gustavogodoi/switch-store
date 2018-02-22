@@ -7,6 +7,7 @@ const Header = () => {
       <div className="header-nintendo-image">
         <img
           className="nintendo-image"
+          alt=""
           src="https://cdn.mos.cms.futurecdn.net/2YBLrRBS3KrMr8ffZrkVzi-1200-80.jpg"
         />
       </div>

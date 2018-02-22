@@ -6,7 +6,7 @@ const GameCard = ({ game }) => {
     <div className="game-master">
       <div className="game-box">
         <div className="game-image-wrapper">
-          <img className="game-image" src={game.front_box_art} />
+          <img className="game-image" src={game.front_box_art} alt="" />
         </div>
         <div className="game-title">{game.title}</div>
         <div className="game-price">{game.ca_price}</div>
