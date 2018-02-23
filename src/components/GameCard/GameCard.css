@@ -11,14 +11,12 @@
   width: 200px;
   height: 300px;
   text-align: center;
-  border: 1px solid lightgray;
-  border-radius: 10px;
-  box-shadow: 1px 1px darkgrey;
+  cursor: pointer;
 }
 
 .game-box:hover,
 .game-box:focus {
-  box-shadow: 1px 1px black;
+  /*box-shadow: 1px 1px black;*/
 }
 
 .game-image-wrapper {
