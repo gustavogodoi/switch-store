@@ -12,11 +12,13 @@
   height: 300px;
   text-align: center;
   cursor: pointer;
+  transition-duration: 0.2s;
 }
 
 .game-box:hover,
 .game-box:focus {
   transform: scale(1.1);
+  transition-duration: 0.3s;
 }
 
 .game-image-wrapper {
