@@ -16,7 +16,7 @@
 
 .game-box:hover,
 .game-box:focus {
-  /*box-shadow: 1px 1px black;*/
+  transform: scale(1.1);
 }
 
 .game-image-wrapper {
@@ -37,9 +37,10 @@
 
 .game-title {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+  padding-bottom: 5px;
 }
 
 .game-price {
-  padding-top: 5px;
+  font-size: 13px;
 }
