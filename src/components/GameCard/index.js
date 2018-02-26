@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-import { GamePage } from '../../containers/GamePage/index';
+import { Link } from 'react-router-dom';
 import './GameCard.css';
 
 const GameCard = ({ game }) => {
