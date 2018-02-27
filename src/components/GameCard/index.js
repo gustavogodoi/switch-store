@@ -6,11 +6,9 @@ const GameCard = ({ game }) => {
   return (
     <div className="game-master">
       <div className="game-box">
-        <div className="game-image-wrapper">
-          <Link to="../../GamePage/index">
-            <img className="game-image" src={game.front_box_art} alt="" />
-          </Link>
-        </div>
+        <Link to="../../GamePage/index" className="game-image-wrapper">
+          <img className="game-image" src={game.front_box_art} alt="" />
+        </Link>
         <div className="game-title">{game.title}</div>
         <div className="game-price">U$ {game.ca_price}</div>
       </div>
