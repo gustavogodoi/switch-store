@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router';
 import ListPage from '../../containers/ListPage';
 import Header from '../Header';
-import { GamePage } from '../../containers/GamePage/index';
+import { GamePage } from '../../containers/GamePage';
 
 class App extends Component {
   render() {
@@ -10,10 +10,8 @@ class App extends Component {
       <div>
         <Header />
         <Switch>
-          <div>
-            <Route exact path="/" component={ListPage} />
-            <Route path="/slug" component={GamePage} />
-          </div>
+          <Route exact path="/game/:slug" component={GamePage} />
+          <Route path="/" component={ListPage} />
         </Switch>
       </div>
     );
