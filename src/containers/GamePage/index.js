@@ -15,6 +15,9 @@ class GamePage extends Component {
     if (this.props.gameList && this.props.gameList.length) {
       game = this.props.gameList.find(game => game.slug === this.props.match.params.slug)
     }
+    if (this.props.loading) {
+      return <div>Loading...</div>;
+    }
     return (
       <div className="gamepage-master">
         <div className="gamepage-header">
