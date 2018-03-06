@@ -5,7 +5,6 @@ import List from '../../components/List';
 
 class ListPage extends Component {
   componentDidMount() {
-    console.log(this.props);
     if (!this.props.gameList || !this.props.gameList.length) {
       this.props.loadGameListRequest();
     }
