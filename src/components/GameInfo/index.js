@@ -4,7 +4,7 @@ import './GameInfo.scss';
 const GameInfo = ({ game }) => {
   return (
     <div className="gamepage-master">
-      <div className="gamepage-title">{game.slug}</div>
+      <div className="gamepage-title">{game.title}</div>
       <div className="gamepage-image">
         <img className="the-image" alt="" src={game.front_box_art} />
       </div>
