@@ -3,8 +3,9 @@ import { connect } from 'react-redux';
 import { loadGameListRequest } from '../../actions';
 import List from '../../components/List';
 
-export class ListPage extends Component {
+class ListPage extends Component {
   componentDidMount() {
+    console.log(this.props);
     if (!this.props.gameList || !this.props.gameList.length) {
       this.props.loadGameListRequest();
     }

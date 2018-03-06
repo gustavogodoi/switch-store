@@ -1,16 +1,39 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { loadGameListRequest } from '../../actions';
 import GameInfo from '../../components/GameInfo';
 
-export class GamePage extends Component {
+class GamePage extends Component {
+  componentDidMount() {
+    if (!this.props.gameList || !this.props.gameList.length) {
+      this.props.loadGameListRequest();
+    }
+  }
+
   render() {
+    let game = {};
+    if (this.props.gameList && this.props.gameList.length) {
+      game = this.props.gameList.find(game => game.slug === this.props.match.params.slug)
+    }
     return (
       <div className="gamepage-master">
         <div className="gamepage-header">
-          <GameInfo />
+          <GameInfo game={game} />
         </div>
       </div>
     );
   }
 }
 
-export default GamePage;
+const mapStateToProps = (state, ownProps) => {
+  return {
+    gameList: state.reducers.gameList,
+    loading: state.reducers.loading,
+  };
+};
+
+const mapDispatchToProps = dispatch => ({
+  loadGameListRequest: () => dispatch(loadGameListRequest()),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(GamePage);
