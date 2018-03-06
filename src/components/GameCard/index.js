@@ -10,7 +10,7 @@ const GameCard = ({ game }) => {
           <img className="game-image" src={game.front_box_art} alt="" />
         </Link>
         <div className="game-title">{game.title}</div>
-        <div className="game-price">U$ {game.ca_price}</div>
+        <div className="game-price">{game.ca_price && `U$ ${game.ca_price}`}</div>
       </div>
     </div>
   );
