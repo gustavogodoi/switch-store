@@ -1,6 +1,6 @@
 import React from 'react';
 import GameCard from '../GameCard';
-import './List.css';
+import './List.scss';
 
 const List = ({ games }) => {
   return (
