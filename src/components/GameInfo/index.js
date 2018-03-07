@@ -14,6 +14,34 @@ const GameInfo = ({ game }) => {
       <div className="gamepage-price">
         Preço: {game.ca_price && `U$ ${game.ca_price}`}
       </div>
+      <div className="gamepage-youtube-title">
+        <h1>Youtube:</h1>
+      </div>
+      <div className="gamepage-youtube">
+        <img
+          className="youtube-image"
+          alt=""
+          src="https://www.torcedores.com/content/uploads/2017/06/super-mario-odyssey-2.jpg"
+        />
+
+        <img
+          className="youtube-image"
+          alt=""
+          src="https://www.torcedores.com/content/uploads/2017/06/super-mario-odyssey-2.jpg"
+        />
+
+        <img
+          className="youtube-image"
+          alt=""
+          src="https://www.torcedores.com/content/uploads/2017/06/super-mario-odyssey-2.jpg"
+        />
+
+        <img
+          className="youtube-image"
+          alt=""
+          src="https://www.torcedores.com/content/uploads/2017/06/super-mario-odyssey-2.jpg"
+        />
+      </div>
     </div>
   );
 };

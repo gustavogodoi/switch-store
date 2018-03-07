@@ -32,3 +32,22 @@
   font-weight: bold;
   padding-bottom: 20px;
 }
+
+.gamepage-youtube-title {
+  font-size: 30px;
+}
+
+.gamepage-youtube {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 20px;
+  height: 300px;
+  width: 100%;
+}
+
+.youtube-image {
+  height: 250px;
+  width: 250px;
+}
