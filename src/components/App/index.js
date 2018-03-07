@@ -4,6 +4,7 @@ import Header from '../Header';
 import Footer from '../Footer';
 import ListPage from '../../containers/ListPage';
 import GamePage from '../../containers/GamePage';
+import AboutUs from '../../containers/AboutUs';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Header />
         <Switch>
           <Route exact path="/game/:slug" component={GamePage} />
+          <Route exact path="/about" component={AboutUs} />
           <Route path="/" component={ListPage} />
         </Switch>
         <Footer />
