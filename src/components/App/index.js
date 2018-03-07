@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router';
 import Header from '../Header';
+import Footer from '../Footer';
 import ListPage from '../../containers/ListPage';
 import GamePage from '../../containers/GamePage';
 
@@ -13,6 +14,7 @@ class App extends Component {
           <Route exact path="/game/:slug" component={GamePage} />
           <Route path="/" component={ListPage} />
         </Switch>
+        <Footer />
       </div>
     );
   }
