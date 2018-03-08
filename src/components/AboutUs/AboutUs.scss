@@ -1,11 +1,25 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .about-title {
   padding-left: 1%;
+}
+
+.aboutpage-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
 }
 
 .about-gustavo {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 300px;
+  width: 300px;
 }
 
 .about-gustavo-image {
@@ -26,27 +40,68 @@
   width: 70px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.about-gustavo.github {
+.about-gustavo-github {
   height: 28px;
   width: 28px;
 }
 
-.about-gustavo.linkedin {
+.about-gustavo-linkedin {
   height: 28px;
   width: 28px;
 }
 
 .about-gustavo-github-image {
+  height: 100%;
+  width: 100%;
+}
+
+.about-gustavo-linkedin-image {
+  height: 100%;
+  width: 100%;
+}
+
+.about-caio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+}
+
+.about-caio-image {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-caio-name {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.about-caio-links {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+
+.about-caio.github {
   height: 28px;
   width: 28px;
 }
 
-.about-gustavo-linkedin-image {
+.about-caio.linkedin {
+  height: 28px;
+  width: 28px;
+}
+
+.about-caio-github-image {
+  height: 28px;
+  width: 28px;
+}
+
+.about-caio-linkedin-image {
   height: 28px;
   width: 28px;
 }
