@@ -1,0 +1,19 @@
+.sidemenu-master {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100%;
+  width: 150px;
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px lightgrey;
+  position: absolute;
+  margin: 1%;
+}
+
+.sidemenu-items {
+  padding: 20px;
+}
+
+.sidemenu-maisvendidos {
+  padding: 20px;
+}

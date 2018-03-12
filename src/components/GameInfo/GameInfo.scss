@@ -10,9 +10,17 @@
   padding: 20px;
 }
 
-.the-image {
+.gamepage-image {
+  display: flex;
+  align-self: center;
   height: 400px;
   width: 500px;
+  padding: 10px;
+}
+
+.the-image {
+  height: 100%;
+  width: 100%;
 }
 
 /* .gamepage-description {
@@ -35,6 +43,7 @@
 
 .gamepage-youtube-title {
   font-size: 30px;
+  width: 100%;
 }
 
 .gamepage-youtube {
@@ -48,6 +57,26 @@
 }
 
 .youtube-image {
+  height: 250px;
+  width: 250px;
+}
+
+.gamepage-twitch-title {
+  font-size: 30px;
+  width: 100%;
+}
+
+.gamepage-twitch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 20px;
+  height: 300px;
+  width: 100%;
+}
+
+.twitch-image {
   height: 250px;
   width: 250px;
 }

@@ -12,7 +12,7 @@ const GameInfo = ({ game }) => {
         Data de Lançamento: {game.release_date}
       </div>
       <div className="gamepage-price">
-        Preço: {game.ca_price && `U$ ${game.ca_price}`}
+        {game.ca_price && `Preço: U$ ${game.ca_price}`}
       </div>
       <div className="gamepage-youtube-title">
         <h1>Youtube:</h1>
@@ -38,6 +38,34 @@ const GameInfo = ({ game }) => {
 
         <img
           className="youtube-image"
+          alt=""
+          src="https://www.torcedores.com/content/uploads/2017/06/super-mario-odyssey-2.jpg"
+        />
+      </div>
+      <div className="gamepage-twitch-title">
+        <h1>Twitch:</h1>
+      </div>
+      <div className="gamepage-twitch">
+        <img
+          className="twitch-image"
+          alt=""
+          src="https://www.torcedores.com/content/uploads/2017/06/super-mario-odyssey-2.jpg"
+        />
+
+        <img
+          className="twitch-image"
+          alt=""
+          src="https://www.torcedores.com/content/uploads/2017/06/super-mario-odyssey-2.jpg"
+        />
+
+        <img
+          className="twitch-image"
+          alt=""
+          src="https://www.torcedores.com/content/uploads/2017/06/super-mario-odyssey-2.jpg"
+        />
+
+        <img
+          className="twitch-image"
           alt=""
           src="https://www.torcedores.com/content/uploads/2017/06/super-mario-odyssey-2.jpg"
         />

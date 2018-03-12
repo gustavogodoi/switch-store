@@ -4,7 +4,10 @@ a {
 }
 
 .about-title {
-  padding-left: 1%;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
 }
 
 .aboutpage-us {
