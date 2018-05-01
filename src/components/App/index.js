@@ -5,11 +5,12 @@ import Footer from '../Footer';
 import ListPage from '../../containers/ListPage';
 import GamePage from '../../containers/GamePage';
 import AboutPage from '../../containers/AboutPage';
+import './App.scss';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <Header />
         <Switch>
           <Route exact path="/game/:slug" component={GamePage} />
